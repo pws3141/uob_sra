@@ -1,0 +1,20 @@
+---
+title: Interview Presentation
+subtitle: SRA (Genetic Epidemiology and Medical Statistics)
+author: "[Paul Smith](mailto:psmith@posteo.net)"
+date: 2024-12-12
+date-format: "MMM D, YYYY"
+format:
+  revealjs:
+    theme: serif
+logo: https://www.bristol.ac.uk/styles/t4/responsive/uob-logo.svg
+---
+
+# A Recent Project
+
+## ERAS
+
+# What will I bring to the job?
+
+## Skills
+
