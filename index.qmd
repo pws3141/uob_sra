@@ -65,6 +65,7 @@ data_craft <- tibble(data_craft) %>%
   - between the ERAS and centre effects,
   - also a human factor in all of this, with respect to how/ when ERAS is
     implemented in a centre.
+- Blood and Transplant Research Units (BTRU) project: Organ donation and transplantation stream
 :::
 
 ## Initial thoughts
@@ -94,6 +95,12 @@ model_main <- lmer(Log2lengthstay ~ Centre_ERAS_status + donor_age +
                      pre_emptivetx + (1|centre), data = data_craft)
 summary(model_main)
 ```
+:::
+
+::: {.notes}
+- Linear Mixed-Effects Model output
+- My job is to take a step back and discuss with them the limitations of the models and the data, and any confounding or reverse causation that might be occurring
+
 :::
 
 ## Exploratory analysis
@@ -191,7 +198,7 @@ I think it should be simplified as much as possible, with the aim to get a minim
 ## Skills 
 ::: {.incremental}
 - Research: *masters, PhD and at NHSBT*
-- Programming: *R, SAS and Python*
+- Programming: *R, SAS, Python, and Stata*
 - Teaching: *at Leeds University and a secondary school*
 - Collaboration and working in interdisciplinary teams: *through the BTRU partnership*
 - Passionate! 
